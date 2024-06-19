@@ -1,6 +1,43 @@
-# Getting Started with Create React App
+# Dog Breeds Explorer 
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project is a web application for exploring different dog breeds.
+
+## Features
+
+- Browse through a list of dog breeds
+- View details of each breed, including images and information
+- Search for specific breeds
+- Pagination support for browsing multiple pages of breeds
+
+## Technologies Used
+
+- React
+- React Router
+- Axios for HTTP requests
+- Tailwind CSS for styling
+- Framer Motion for animations
+- React Query for data fetching and caching
+- TypeScript for type safety
+- Testing Library for testing React components
+
+## Installation
+
+To run the project locally, follow these steps:
+
+1. Get the project:
+
+To install the necessary dependencies, navigate to the project directory and run the following command:
+
+```bash
+cd dog-breeds-explorer
+npm install
+npm start
+```
+
+To install the necessary dependencies if they are not installed by npm install, run the following command:
+
+```bash
+npm install @heroicons/react @tanstack/react-query @testing-library/jest-dom @testing-library/react @testing-library/user-event @types/jest @types/node @types/react @types/react-dom axios framer-motion react react-dom react-router-dom react-type-animation tailwindcss typescript web-vitals
 
 ## Available Scripts
 
@@ -28,19 +65,7 @@ The build is minified and the filenames include the hashes.\
 Your app is ready to be deployed!
 
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+```
+## Typescript - Optional Feature
 
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+In this project, I've chosen to incorporate TypeScript as an optional but highly beneficial feature. By leveraging TypeScript, I'm enhancing the development process by introducing static typing to JavaScript, which helps catch errors early on and provides clearer documentation within the codebase. TypeScript improves code readability and maintainability, making it easier for developers to understand and collaborate on the project. Additionally, TypeScript's integration with code editors like Visual Studio Code enhances the development experience by offering features such as code completion and type checking. Overall, while TypeScript is not strictly required, its adoption brings significant advantages in terms of code quality, developer productivity, and application robustness.
